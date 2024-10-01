@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+/* Estilo para o contêiner principal */
+
+.container {
+    display: flex;     /* Define o contêiner como um flexbox */
+    gap: 20px;         /* Espaçamento entre os cards */
+    flex-wrap: wrap;   /* Permite que os cards quebrem linha se necessário */
+}
+
+/* Estilo para cada card */
+
+.card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    flex: 1;                                       /* Permite que os cards cresçam igualmente */
+    max-width: 300px;                              /* Define uma largura máxima para os cards */
+}
+
+/* Estilo para o título dos cards */
+
+.card h4 {
+    margin-top: 0;
+    font-size: 15px;
+    color: #333;
+}
+
+/* Estilo para o parágrafo dos cards */
+
+.card p {
+    color: #666;
+}
+
+/* Estilo para a imagem do card */
+
+.card img{
+    margin: 20px;
+    width: 150px;
+    height: 170px;
+    border-radius: 360px;   
+}
